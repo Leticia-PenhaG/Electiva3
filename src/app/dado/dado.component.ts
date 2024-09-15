@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './dado.component.css'
 })
 export class DadoComponent {
-  valor: number = Math.floor(Math.random() * 6) + 1;
+
+  @Input() valor: string="";
+
 }
