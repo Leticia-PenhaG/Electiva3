@@ -10,6 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class DadoComponent {
 
-  @Input() valor: string="";
+  //@Input() valor: string="";
+
+  @Input() valor: number=1;
 
 }

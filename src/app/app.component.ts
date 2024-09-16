@@ -14,7 +14,6 @@ export class AppComponent {
   valor1: number = this.retornarAleatorio()
   valor2: number = this.retornarAleatorio()
   valor3: number = this.retornarAleatorio()
-  valor4: number = this.retornarAleatorio()
   resultado: string="";
 
   retornarAleatorio() {
@@ -25,7 +24,6 @@ export class AppComponent {
     this.valor1 = this.retornarAleatorio();
     this.valor2 = this.retornarAleatorio();
     this.valor3 = this.retornarAleatorio();
-    this.valor4 = this.retornarAleatorio();
     if (this.valor1 == this.valor2 && this.valor1 == this.valor3)
       this.resultado = 'Ganó';
     else
